@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/main.css" />
+    <title>EyMenuSss Burger</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img class="logo" src="eymenus.jpg" alt="" />
+        <h1 class="logo-text">EyMenuSss Burger</h1>
+      </div>
+    </header>
+    <div class="container">
+        <div class="btn">
+            <button class="refresh" onclick="refresh()">remove all</button>
+            <button onclick="buyurtma()">
+                order
+            </button>
+            <h1 class="h1"></h1>
+        </div>
+        <div class="burger">
+          <img class="top-bread" src="burger-layers/top-bread.svg" alt="" />
+          <br />
+          <div class="ing">
+              
+          </div>
+
+          <img
+            class="bottom-bread"
+            src="burger-layers/bottom-bread.svg"
+            alt=""
+          />
+        </div>
+      <div class="burger-ingredients">
+        <div class="buttons">
+            <button class="cheese">Add Cheese</button>
+            <br>
+            <br>
+            <button class="meat">Add Meat</button>
+            <br>
+            <br>
+            <button class="onion">Add Onion</button>
+            <br>
+            <br>
+            <button class="salad">Add Salad</button>
+            <br>
+            <br>
+            <button class="tomato">Add Tomato</button>
+            <br>
+            <br>
+            <button class="pickle">Add Pickle</button>
+          </div>
+        <!-- prices -->
+        <div class="prices">
+          <h2 id="a1">Cheese - $2</h2>
+          <h2 id="a2">Meat - $5</h2>
+          <h2 id="a3">Onion - $1</h2>
+          <h2 id="a4">Salad - $1</h2>
+          <h2 id="a5">Tomato - $2</h2>
+          <h2 id="a6">Pickle - $3</h2>
+          <h2 id="a7">Bread - $2</h2>
+        </div>
+        <div class="total">
+          <h1>Total -  $<span class="sp" id="dollar"></span></h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
